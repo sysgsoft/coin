@@ -1,0 +1,53 @@
+{
+  "id": "0fbe0cca-6b5d-4559-9fd4-22ce653634d6",
+  "timestamp": "2018-06-06T11:03:28.216Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "2",
+    "action": "Buy_location.Buy_location-custom.Buy_price_range-custom",
+    "actionIncomplete": false,
+    "parameters": {
+      "number": 2
+    },
+    "contexts": [
+      {
+        "name": "buy_price_range-followup",
+        "parameters": {
+          "number": 2,
+          "number.original": "2"
+        },
+        "lifespan": 1
+      },
+      {
+        "name": "buy_bed_rooms-followup",
+        "parameters": {
+          "number": 2,
+          "number.original": "2"
+        },
+        "lifespan": 2
+      }
+    ],
+    "metadata": {
+      "intentId": "9c7b5104-e785-4a62-affc-804e536896b8",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Buy_bed_rooms"
+    },
+    "fulfillment": {
+      "speech": "How many bathrooms are you looking for ?",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How many bathrooms are you looking for ?"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "be947245-a3f7-ec16-ca25-bfee93a70995"
+}
